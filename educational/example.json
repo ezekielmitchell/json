@@ -1,1 +1,55 @@
+// JSON stands for JavaScript Object Notation.
+// JSON is a lightweight format for storing and transporting data.
+// JSON is often used when data is sent from a server to a web page.
+// JSON is "self-describing" and easy to understand.
 
+{
+    "animals": {
+        "alive": true,
+        "type": "bear",
+        "home": "forest",
+        "diest": [
+            {
+                "kind": "fish",
+                "home": "water"
+            },
+            {
+                "kind": "deer",
+                "home": "forest"
+            }
+        ],
+        "speed": 70
+    }
+}
+
+
+
+{
+    "users" :
+    [
+        {
+            "firstName" : "John",
+            "lastName" : "Doe",
+            "age" : 50,
+
+        },
+        {
+            "firstName" : "Jane",
+            "lastName" : "Doe",
+            "age" : 50
+        }
+    ],
+
+    "subjects" :
+    [
+        {
+            "name" : "Automation",
+            "id" : 001
+        },
+        
+        {
+            "name" : "JSON",
+            "id" : 002
+        }
+    ]
+}
